@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditTrainActivity">
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="Train Number" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <!-- Item field -->
+        <EditText
+            android:id="@+id/edit_train"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/train_no_hint"
+            android:inputType="textCapWords" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_north_station"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_porter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_belmont"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_waverley"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_waltham"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_brandeis_roberts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_kendall_green"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_hastings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_silver_hill"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_lincoln"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_concord"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_west_concord"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_south_acton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_littleton_rte_495"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_ayer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_shirley"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_north_leominster"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_fitchburg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+                <!-- Item field -->
+                <EditText
+                    android:id="@+id/edit_wachusett"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint"
+                    android:inputType="textCapWords" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
